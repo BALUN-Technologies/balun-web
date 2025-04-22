@@ -19,6 +19,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: "https://balun-website.vercel.app", // ← match your deployed URL
+  site: "https://balun-website1.vercel.app", // ← match your deployed URL
   base: "/", // ← base should be '/' for root deployment
 });
