@@ -1,3 +1,4 @@
+import React from "react";
 import { Button, Typography, Card, CardBody } from "@material-tailwind/react";
 import { CheckIcon, MinusIcon } from "@heroicons/react/24/outline";
 

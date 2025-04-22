@@ -1,3 +1,4 @@
+import React from "react";
 import { Typography, Card } from "@material-tailwind/react";
 
 function StatsCard({ count, title }) {
