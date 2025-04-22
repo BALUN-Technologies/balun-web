@@ -1,12 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import HeaderAbout from '../components/about/HeaderAbout.jsx'; // or .astro
-import FeaturesAbout from '../components/about/FeaturesAbout.jsx'; // or .astro
-import TestimonialAbout from '../components/about/TestimonialAbout.jsx'; // or .astro
-import TeamAbout from '../components/about/TeamAbout.jsx'; // or .astro
-import FooterAbout from '../components/about/FooterAbout.jsx'; // or .astro
+import HeaderAbout from '../components/about/header';
+import FeaturesAbout from '../components/about/features';
+import TestimonialAbout from '../components/about/testimonials';
+import TeamAbout from '../components/about/team';
+import FooterAbout from '../components/about/footer';
 ---
-
 <Layout title="About Us Page">
   <main>
     <HeaderAbout client:only="react" />
