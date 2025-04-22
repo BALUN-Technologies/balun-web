@@ -133,16 +133,15 @@ export default function ComplexNavbar() {
 
   return (
     <Navbar fullWidth className="sticky top-0 z-50 backdrop-blur-md bg-white/70 transition-all duration-300 ...">
-  <div className="relative w-full max-w-screen-2xl mx-auto flex items-center justify-between text-blue-gray-900 px-4">
-        {/* Logo */}
-        <Typography
-          as="a"
-          href="/"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
-        >
-          AstroLaunch
-        </Typography>
+ <div className="relative w-full max-w-screen-2xl mx-auto flex items-center justify-between text-blue-gray-900 px-4">
+  {/* Logo */}
+  <a href="/" className="mr-4 cursor-pointer flex items-center">
+    <img
+      src="/logo.png" // 🔁 Replace with your actual logo path
+      alt="AstroLaunch Logo"
+      className="h-10 w-auto object-contain" // Tailwind-based sizing
+    />
+  </a>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-4 ml-auto">
