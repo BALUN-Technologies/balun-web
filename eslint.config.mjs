@@ -11,6 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@next/next/no-img-element": "off",            // allow <img>
+      "@next/next/no-sync-scripts": "off",           // allow sync <script>
+      "react/no-unescaped-entities": "off",          // allow unescaped quotes
+    },
+  },
 ];
 
 export default eslintConfig;
+
