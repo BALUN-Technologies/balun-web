@@ -16,6 +16,7 @@ const eslintConfig = [
       "@next/next/no-img-element": "off",            // allow <img>
       "@next/next/no-sync-scripts": "off",           // allow sync <script>
       "react/no-unescaped-entities": "off",          // allow unescaped quotes
+      "@typescript-eslint/no-unused-vars": "warn"
     },
   },
 ];

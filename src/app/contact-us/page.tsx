@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Script from "next/script";
+
 
 const ContactPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,36 +14,36 @@ const ContactPage = () => {
     AOS.init({ duration: 1000, easing: "ease-in-out-quart" });
   }, []);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
 
-  const menuItems = [
-    { title: "Services", url: "./services" },
-    { title: "Solutions", url: "./solutions" },
-    { title: "Process", url: "./process" },
-    { title: "Clients", url: "./clients" },
-    { title: "Work", url: "./work" },
-    { title: "Insights", url: "./insights" },
-    { title: "Careers", url: "./careers" },
-    { title: "Contact", url: "./contact-us" },
-  ];
+  // const menuItems = [
+  //   { title: "Services", url: "./services" },
+  //   { title: "Solutions", url: "./solutions" },
+  //   { title: "Process", url: "./process" },
+  //   { title: "Clients", url: "./clients" },
+  //   { title: "Work", url: "./work" },
+  //   { title: "Insights", url: "./insights" },
+  //   { title: "Careers", url: "./careers" },
+  //   { title: "Contact", url: "./contact-us" },
+  // ];
 
-  const socialLinks = [
-    {
-      href: "https://www.linkedin.com/company/creative-chaos/",
-      icon: "fa-linkedin",
-    },
-    {
-      href: "https://www.instagram.com/creativechaospk/",
-      icon: "fa-instagram",
-    },
-    { href: "https://web.facebook.com/CreativeChaosPK", icon: "fa-facebook" },
-    {
-      href: "https://www.youtube.com/@creativechaos3152",
-      icon: "fa-youtube-play",
-    },
-  ];
+  // const socialLinks = [
+  //   {
+  //     href: "https://www.linkedin.com/company/creative-chaos/",
+  //     icon: "fa-linkedin",
+  //   },
+  //   {
+  //     href: "https://www.instagram.com/creativechaospk/",
+  //     icon: "fa-instagram",
+  //   },
+  //   { href: "https://web.facebook.com/CreativeChaosPK", icon: "fa-facebook" },
+  //   {
+  //     href: "#",
+  //     icon: "fa-youtube-play",
+  //   },
+  // ];
 
   return (
     <div
