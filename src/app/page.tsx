@@ -13,13 +13,13 @@ export default function Home() {
               <div className="logo pull-left">
                 <a href="https://creativechaos.co">
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-white-ni.svg"
-                    alt="Creative Chaos"
+                    src="./logo.png"
+                    alt="Balun Technology"
                     className="logo-white"
                   />
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-ni.svg"
-                    alt="Creative Chaos"
+                    src="./logo.png"
+                    alt="Balun Technology"
                     className="logo-dark"
                   />
                 </a>
@@ -35,28 +35,28 @@ export default function Home() {
             <div className="menu-main-menu-container">
               <ul id="menu-main-menu" className="menu">
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/services/">Services</a>
+                  <a href="./services/">Services</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/solutions/">Solutions</a>
+                  <a href="./solutions/">Solutions</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/process/">Process</a>
+                  <a href="./process/">Process</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/clients/">Clients</a>
+                  <a href="./clients/">Clients</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/work/">Work</a>
+                  <a href="./work/">Work</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/insights/">Insights</a>
+                  <a href="./insights/">Insights</a>
                 </li>
                 <li className="menu-item onlyPK">
-                  <a href="https://creativechaos.co/careers/">Careers</a>
+                  <a href="./careers/">Careers</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://creativechaos.co/contact-us/">Contact</a>
+                  <a href="./contact-us/">Contact</a>
                 </li>
               </ul>
             </div>
@@ -81,7 +81,7 @@ export default function Home() {
                 ></span>
               </h1>
               <a
-                href="//creativechaos.co/contact-us/"
+                href="./contact-us/"
                 className="lnk-calltoaction f12 btn btn-primary"
               >
                 Let's Build Together{" "}
@@ -127,7 +127,7 @@ export default function Home() {
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-center"
               >
-                <a href="https://creativechaos.co/experience-design/">
+                <a href="./automation/">
                   <div className="box lead">
                     <div
                       className="bg"
@@ -143,7 +143,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
-                <a href="https://creativechaos.co/idf/">
+                <a href="./nlm&llm/">
                   <div
                     className="box col-xsls-6 col-smpt-6"
                     data-aos="fade-up"
@@ -171,7 +171,7 @@ export default function Home() {
                   </div>
                 </a>
 
-                <a href="https://creativechaos.co/devops-cloud/">
+                <a href="./devops-cloud/">
                   <div
                     className="box col-xsls-6 col-smpt-6"
                     data-aos="fade-up"
@@ -216,7 +216,7 @@ export default function Home() {
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-center"
               >
-                <a href="https://creativechaos.co/insights/mvp-in-action/">
+                <a href="./datasci/">
                   <div className="box lead">
                     <div
                       className="bg"
@@ -236,7 +236,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
-                <a href="https://creativechaos.co/insights/four-stages-of-innovation-delivery/">
+                <a href="./datasci/">
                   <div
                     className="box col-xsls-6 col-smpt-6"
                     data-aos="fade-up"
@@ -267,7 +267,7 @@ export default function Home() {
                   </div>
                 </a>
 
-                <a href="https://creativechaos.co/research-insights/">
+                <a href="./datasci/">
                   <div
                     className="box col-xsls-6 col-smpt-6"
                     data-aos="fade-up"
@@ -411,7 +411,7 @@ export default function Home() {
                     <h6 className="subheading uppercase">Get in Touch</h6>{" "}
                     <h2 className="heading h1">Let's Build Together</h2>
                     <a
-                      href="https://creativechaos.co/contact-us/"
+                      href="./contact-us/"
                       className="lnk-calltoaction f12 btn btn-primary"
                     >
                       Talk to us{" "}
@@ -427,21 +427,21 @@ export default function Home() {
                     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                       <div className="socialPlugs onlyPK">
                         <a
-                          href="https://www.linkedin.com/company/creative-chaos/"
+                          href="#"
                           target="_blank"
                         >
                           <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
 
                         <a
-                          href="https://www.instagram.com/creativechaospk/"
+                          href="#"
                           target="_blank"
                         >
                           <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
 
                         <a
-                          href="https://web.facebook.com/CreativeChaosPK"
+                          href="#"
                           target="_blank"
                         >
                           <i className="fa fa-facebook" aria-hidden="true"></i>

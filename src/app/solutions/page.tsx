@@ -20,60 +20,84 @@ export default function SolutionsPage() {
 >
   <div id="superdiv">
     <header id="header" className="darkLogo">
-      <div className="cntHolder">
-        <div className="container-fluid">
-          <div className="logo pull-left">
-            <a href="https://creativechaos.co">
-              <img
-                src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-white-ni.svg"
-                alt="Creative Chaos"
-                className="logo-white"
-              />
-              <img
-                src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-ni.svg"
-                alt="Creative Chaos"
-                className="logo-dark"
-              />
-            </a>
+          <div className="cntHolder">
+            <div className="container-fluid">
+              <div className="logo pull-left">
+                <a href="https://creativechaos.co">
+                  <img
+                    src="./logo.png"
+                    alt="Creative Chaos"
+                    className="logo-white"
+                  />
+                  <img
+                    src="./logo.png"
+                    alt="Creative Chaos"
+                    className="logo-dark"
+                  />
+                </a>
+              </div>
+
+              <button className="overlayMenuButton pull-right">
+                <span></span>
+              </button>
+            </div>
           </div>
 
-          <button className="overlayMenuButton pull-right">
-            <span></span>
-          </button>
-        </div>
-      </div>
-
-      <div className="overlayMenu">
-        <div className="menu-main-menu-container">
-          <ul id="menu-main-menu" className="menu">
-            <li className="menu-item">
-              <a href="https://creativechaos.co/services/">Services</a>
-            </li>
-            <li className="menu-item current-menu-item current_page_item">
-              <a href="https://creativechaos.co/solutions/">Solutions</a>
-            </li>
-            <li className="menu-item">
-              <a href="https://creativechaos.co/process/">Process</a>
-            </li>
-            <li className="menu-item">
-              <a href="https://creativechaos.co/clients/">Clients</a>
-            </li>
-            <li className="menu-item">
-              <a href="https://creativechaos.co/work/">Work</a>
-            </li>
-            <li className="menu-item">
-              <a href="https://creativechaos.co/insights/">Insights</a>
-            </li>
-            <li className="menu-item onlyPK">
-              <a href="https://creativechaos.co/careers/">Careers</a>
-            </li>
-            <li className="menu-item">
-              <a href="https://creativechaos.co/contact-us/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+          <div className="overlayMenu">
+            <div className="menu-main-menu-container">
+              <ul id="menu-main-menu" className="menu">
+                <li
+                  id="menu-item-22"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
+                >
+                  <a href="./services/">Services</a>
+                </li>
+                <li
+                  id="menu-item-40"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
+                >
+                  <a href="./solutions/">Solutions</a>
+                </li>
+                <li
+                  id="menu-item-771"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771"
+                >
+                  <a href="./process/">Process</a>
+                </li>
+                <li
+                  id="menu-item-2632"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"
+                >
+                  <a href="./clients/">Clients</a>
+                </li>
+                <li
+                  id="menu-item-183"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"
+                >
+                  <a href="./work/">Work</a>
+                </li>
+                <li
+                  id="menu-item-186"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"
+                >
+                  <a href="./insights/">Insights</a>
+                </li>
+                <li
+                  id="menu-item-2723"
+                  className="onlyPK menu-item menu-item-type-post_type menu-item-object-page menu-item-2723"
+                >
+                  <a href="./careers/">Careers</a>
+                </li>
+                <li
+                  id="menu-item-988"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"
+                >
+                  <a href="./contact-us/">Contact</a>
+                </li>
+              </ul>
+            </div>{" "}
+          </div>
+        </header>
 
     <div
       id="pageHeading"

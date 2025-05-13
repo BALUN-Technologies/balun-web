@@ -12,18 +12,18 @@ const Careerspage = () => {
       data-aos-delay="0"
     >
       <div id="superdiv">
-        <header id="header">
+        <header id="header" className="darkLogo">
           <div className="cntHolder">
             <div className="container-fluid">
               <div className="logo pull-left">
                 <a href="https://creativechaos.co">
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-white-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-white"
                   />
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-dark"
                   />
@@ -43,55 +43,54 @@ const Careerspage = () => {
                   id="menu-item-22"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
                 >
-                  <a href="https://creativechaos.co/services/">Services</a>
+                  <a href="./services/">Services</a>
                 </li>
                 <li
                   id="menu-item-40"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
                 >
-                  <a href="https://creativechaos.co/solutions/">Solutions</a>
+                  <a href="./solutions/">Solutions</a>
                 </li>
                 <li
                   id="menu-item-771"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771"
                 >
-                  <a href="https://creativechaos.co/process/">Process</a>
+                  <a href="./process/">Process</a>
                 </li>
                 <li
                   id="menu-item-2632"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"
                 >
-                  <a href="https://creativechaos.co/clients/">Clients</a>
+                  <a href="./clients/">Clients</a>
                 </li>
                 <li
                   id="menu-item-183"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"
                 >
-                  <a href="https://creativechaos.co/work/">Work</a>
+                  <a href="./work/">Work</a>
                 </li>
                 <li
                   id="menu-item-186"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"
                 >
-                  <a href="https://creativechaos.co/insights/">Insights</a>
+                  <a href="./insights/">Insights</a>
                 </li>
                 <li
                   id="menu-item-2723"
-                  className="onlyPK menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2697 current_page_item menu-item-2723"
+                  className="onlyPK menu-item menu-item-type-post_type menu-item-object-page menu-item-2723"
                 >
-                  <a href="https://creativechaos.co/careers/">Careers</a>
+                  <a href="./careers/">Careers</a>
                 </li>
                 <li
                   id="menu-item-988"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"
                 >
-                  <a href="https://creativechaos.co/contact-us/">Contact</a>
+                  <a href="./contact-us/">Contact</a>
                 </li>
               </ul>
             </div>{" "}
           </div>
         </header>
-
         <div
           id="innerBanner"
           className="careerBanner aos-init aos-animate zoomIn"
@@ -2431,7 +2430,7 @@ const Careerspage = () => {
                 <h6 className="subheading uppercase">Get in Touch</h6>{" "}
                 <h2 className="heading h1">Let's Build Together</h2>
                 <a
-                  href="https://creativechaos.co/contact-us/"
+                  href="./contact-us/"
                   className="lnk-calltoaction f12 btn btn-primary"
                 >
                   Talk to us{" "}

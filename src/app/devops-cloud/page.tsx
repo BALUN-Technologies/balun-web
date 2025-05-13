@@ -19,12 +19,12 @@ const DevopsPage = () => {
               <div className="logo pull-left">
                 <a href="https://creativechaos.co">
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-white-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-white"
                   />
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-dark"
                   />
@@ -44,49 +44,49 @@ const DevopsPage = () => {
                   id="menu-item-22"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
                 >
-                  <a href="https://creativechaos.co/services/">Services</a>
+                  <a href="./services/">Services</a>
                 </li>
                 <li
                   id="menu-item-40"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
                 >
-                  <a href="https://creativechaos.co/solutions/">Solutions</a>
+                  <a href="./solutions/">Solutions</a>
                 </li>
                 <li
                   id="menu-item-771"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771"
                 >
-                  <a href="https://creativechaos.co/process/">Process</a>
+                  <a href="./process/">Process</a>
                 </li>
                 <li
                   id="menu-item-2632"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"
                 >
-                  <a href="https://creativechaos.co/clients/">Clients</a>
+                  <a href="./clients/">Clients</a>
                 </li>
                 <li
                   id="menu-item-183"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"
                 >
-                  <a href="https://creativechaos.co/work/">Work</a>
+                  <a href="./work/">Work</a>
                 </li>
                 <li
                   id="menu-item-186"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"
                 >
-                  <a href="https://creativechaos.co/insights/">Insights</a>
+                  <a href="./insights/">Insights</a>
                 </li>
                 <li
                   id="menu-item-2723"
                   className="onlyPK menu-item menu-item-type-post_type menu-item-object-page menu-item-2723"
                 >
-                  <a href="https://creativechaos.co/careers/">Careers</a>
+                  <a href="./careers/">Careers</a>
                 </li>
                 <li
                   id="menu-item-988"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"
                 >
-                  <a href="https://creativechaos.co/contact-us/">Contact</a>
+                  <a href="./contact-us/">Contact</a>
                 </li>
               </ul>
             </div>{" "}
@@ -489,7 +489,10 @@ const DevopsPage = () => {
                     </ul>
                     <p>
                       <center>
-                        Seamlessly move from legacy systems to modern cloud platforms (AWS, GCP, Azure). We specialize in hybrid and multi-cloud strategies for reliability and cost-efficiency.
+                        Seamlessly move from legacy systems to modern cloud
+                        platforms (AWS, GCP, Azure). We specialize in hybrid and
+                        multi-cloud strategies for reliability and
+                        cost-efficiency.
                       </center>
                     </p>
                   </div>
@@ -502,12 +505,16 @@ const DevopsPage = () => {
                         />
                       </li>
                       <li>
-                        <h5 className="t_title">Enterprise-Grade Security & Compliance</h5>
+                        <h5 className="t_title">
+                          Enterprise-Grade Security & Compliance
+                        </h5>
                       </li>
                     </ul>
                     <p>
                       <center>
-                        Integrate security at every stage — from vulnerability scanning and runtime defense to audit trails and disaster recovery planning.
+                        Integrate security at every stage — from vulnerability
+                        scanning and runtime defense to audit trails and
+                        disaster recovery planning.
                       </center>
                     </p>
                   </div>
@@ -526,7 +533,12 @@ const DevopsPage = () => {
                       </li>
                     </ul>
                     <p>
-                      <center>Gain full visibility into your systems with proactive alerting, performance metrics, log management, and incident response — powered by tools like Prometheus, Grafana, and ELK.</center>
+                      <center>
+                        Gain full visibility into your systems with proactive
+                        alerting, performance metrics, log management, and
+                        incident response — powered by tools like Prometheus,
+                        Grafana, and ELK.
+                      </center>
                     </p>
                   </div>
                 </div>
@@ -546,7 +558,8 @@ const DevopsPage = () => {
                   <div className="col-md-10 col-center hdGroup txt-center">
                     <h2 className="heading">Our DevOps Toolkit</h2>
                     <h5 className="subHeading">
-                      Maximize efficiency and speed, delivering applications faster with our optimized DevOps toolchain
+                      Maximize efficiency and speed, delivering applications
+                      faster with our optimized DevOps toolchain
                     </h5>
                   </div>
 

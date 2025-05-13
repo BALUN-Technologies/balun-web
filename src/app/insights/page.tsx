@@ -19,12 +19,12 @@ const InsightsPage = () => {
               <div className="logo pull-left">
                 <a href="https://creativechaos.co">
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-white-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-white"
                   />
                   <img
-                    src="https://creativechaos.co/wp-content/themes/ccweb/images/creativechaos-logo-ni.svg"
+                    src="./logo.png"
                     alt="Creative Chaos"
                     className="logo-dark"
                   />
@@ -44,55 +44,54 @@ const InsightsPage = () => {
                   id="menu-item-22"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
                 >
-                  <a href="https://creativechaos.co/services/">Services</a>
+                  <a href="./services/">Services</a>
                 </li>
                 <li
                   id="menu-item-40"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
                 >
-                  <a href="https://creativechaos.co/solutions/">Solutions</a>
+                  <a href="./solutions/">Solutions</a>
                 </li>
                 <li
                   id="menu-item-771"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771"
                 >
-                  <a href="https://creativechaos.co/process/">Process</a>
+                  <a href="./process/">Process</a>
                 </li>
                 <li
                   id="menu-item-2632"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"
                 >
-                  <a href="https://creativechaos.co/clients/">Clients</a>
+                  <a href="./clients/">Clients</a>
                 </li>
                 <li
                   id="menu-item-183"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"
                 >
-                  <a href="https://creativechaos.co/work/">Work</a>
+                  <a href="./work/">Work</a>
                 </li>
                 <li
                   id="menu-item-186"
-                  className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-184 current_page_item current_page_parent menu-item-186"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"
                 >
-                  <a href="https://creativechaos.co/insights/">Insights</a>
+                  <a href="./insights/">Insights</a>
                 </li>
                 <li
                   id="menu-item-2723"
                   className="onlyPK menu-item menu-item-type-post_type menu-item-object-page menu-item-2723"
                 >
-                  <a href="https://creativechaos.co/careers/">Careers</a>
+                  <a href="./careers/">Careers</a>
                 </li>
                 <li
                   id="menu-item-988"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"
                 >
-                  <a href="https://creativechaos.co/contact-us/">Contact</a>
+                  <a href="./contact-us/">Contact</a>
                 </li>
               </ul>
             </div>{" "}
           </div>
         </header>
-
         <div
           id="acf_widget_200-2"
           className="widget acf_widget_200 Acf_Widget_200 "
@@ -511,78 +510,81 @@ const InsightsPage = () => {
         </div>
 
         <footer id="footer">
-          <div
-            className="ftrCalltoaction"
-            style={{
-              backgroundImage:
-                "url('https://creativechaos.co/wp-content/uploads/2018/04/footerbg.jpg')",
-            }}
-          >
-            <div className="container-fluid">
-              <div className="cntHolder">
-                <h6 className="subheading uppercase">Get in Touch</h6>{" "}
-                <h2 className="heading h1">Let's Build Together</h2>
-                <a
-                  href="https://creativechaos.co/contact-us/"
-                  className="lnk-calltoaction f12 btn btn-primary"
-                >
-                  Talk to us{" "}
-                  <span className="cc-icon icon-arrow-right-blue"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="footerContent">
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                  <div className="socialPlugs onlyPK">
+              <div
+                className="ftrCalltoaction"
+                style={{
+                  backgroundImage:
+                    "url('https://creativechaos.co/wp-content/uploads/2018/04/footerbg.jpg')",
+                }}
+              >
+                <div className="container-fluid">
+                  <div className="cntHolder">
+                    <h6 className="subheading uppercase">Get in Touch</h6>{" "}
+                    <h2 className="heading h1">Let's Build Together</h2>
                     <a
-                      href="https://www.linkedin.com/company/creative-chaos/"
-                      target="_blank"
+                      href="./contact-us/"
+                      className="lnk-calltoaction f12 btn btn-primary"
                     >
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-
-                    <a
-                      href="https://www.instagram.com/creativechaospk/"
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-
-                    <a
-                      href="https://web.facebook.com/CreativeChaosPK"
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-
-                    <a
-                      href="https://www.youtube.com/@creativechaos3152"
-                      target="_blank"
-                    >
-                      <i className="fa fa-youtube-play" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right">
-                  <div className="copyright txt-right">
-                    © 2025 Creative Chaos.{" "}
-                    <a href="https://creativechaos.co/privacy-policy/">
-                      Privacy Policy
-                    </a>{" "}
-                    |{" "}
-                    <a href="https://creativechaos.co/terms-and-conditions/">
-                      Terms &amp; Conditions
+                      Talk to us{" "}
+                      <span className="cc-icon icon-arrow-right-blue"></span>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </footer>
+
+              <div className="footerContent">
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                      <div className="socialPlugs onlyPK">
+                        <a
+                          href="#"
+                          target="_blank"
+                        >
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+
+                        <a
+                          href="#"
+                          target="_blank"
+                        >
+                          <i className="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+
+                        <a
+                          href="#"
+                          target="_blank"
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+
+                        <a
+                          href="https://www.youtube.com/@creativechaos3152"
+                          target="_blank"
+                        >
+                          <i
+                            className="fa fa-youtube-play"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right">
+                      <div className="copyright txt-right">
+                        &copy; 2025 Creative Chaos.{" "}
+                        <a href="https://creativechaos.co/privacy-policy/">
+                          Privacy Policy
+                        </a>{" "}
+                        |{" "}
+                        <a href="https://creativechaos.co/terms-and-conditions/">
+                          Terms & Conditions
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
       </div>
 
       <Script
