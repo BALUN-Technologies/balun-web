@@ -1,6 +1,26 @@
 "use client";
+import { useEffect } from "react";
+import TypeIt from "typeit";
 
 export default function Home() {
+  useEffect(() => {
+  new TypeIt("#typeit", {
+      speed: 50,
+      waitUntilVisible: true,
+      deleteSpeed: 30,
+      loop: true, // Keeps the animation running continuously
+    })
+      .type("Custom Software Intelligent Automation")
+      .pause(1000)
+      .delete()
+      .type("Strategic Consultation")
+      .pause(1000)
+      .delete()
+      .type("Everything You Need To Stay Ahead Of The Curve")
+      .pause(1000)
+      .delete()
+      .go();
+  }, []);
   return (
     <div className="home page-template-default page page-id-4 twentyseventeen-front-page has-header-image page-two-column colors-light">
       <div style={{ display: "none" }}>PK</div>
@@ -74,11 +94,9 @@ export default function Home() {
           <div className="container-fluid">
             <div className="cntHolder">
               <h1 className="heading">
-                YOUR PARTNER IN DIGITAL TRANSFORMATION <br />
-                <span
-                  id="typeit"
-                  data-type="Custom software, intelligent automation, and strategic consulting — everything you need to stay ahead of the curve"
-                ></span>
+                Your Partner In Digital Transformation <br />
+                <span id="typeit">
+                </span>
               </h1>
               <a
                 href="./contact-us/"
@@ -137,7 +155,9 @@ export default function Home() {
                     ></div>
                     <div className="cntHolder">
                       <div className="subTitle">AI & ML AUTOMATION</div>
-                      <div className="title">Harness the Power of AI & ML for Seamless Automation</div>
+                      <div className="title">
+                        Harness the Power of AI & ML for Seamless Automation
+                      </div>
                     </div>
                   </div>
                 </a>
@@ -157,7 +177,9 @@ export default function Home() {
                     <div className="col-lg-6 col-md-6">
                       <div className="cntHolder">
                         <div className="subTitle">LLM & NLP Integration</div>
-                        <div className="title">Unlock the power of Language Intelligence</div>
+                        <div className="title">
+                          Unlock the power of Language Intelligence
+                        </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 arrowLeft">
@@ -194,7 +216,7 @@ export default function Home() {
                       <div className="cntHolder">
                         <div className="subTitle">DevOps & Cloud</div>
                         <div className="title">
-                         Automate, Integrate, Dominate
+                          Automate, Integrate, Dominate
                         </div>
                       </div>
                     </div>
@@ -221,8 +243,7 @@ export default function Home() {
                     <div
                       className="bg"
                       style={{
-                        backgroundImage:
-                          "url('./datasci.jpg')",
+                        backgroundImage: "url('./datasci.jpg')",
                       }}
                     ></div>
                     <div className="cntHolder">
@@ -259,8 +280,7 @@ export default function Home() {
                       <div
                         className="bg"
                         style={{
-                          backgroundImage:
-                            "url('./dm.jpg')",
+                          backgroundImage: "url('./dm.jpg')",
                         }}
                       ></div>
                     </div>
@@ -282,8 +302,7 @@ export default function Home() {
                       <div
                         className="bg"
                         style={{
-                          backgroundImage:
-                            "url('./gai.png')",
+                          backgroundImage: "url('./gai.png')",
                         }}
                       ></div>
                     </div>
@@ -426,24 +445,15 @@ export default function Home() {
                   <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                       <div className="socialPlugs onlyPK">
-                        <a
-                          href="#"
-                          target="_blank"
-                        >
+                        <a href="#" target="_blank">
                           <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
 
-                        <a
-                          href="#"
-                          target="_blank"
-                        >
+                        <a href="#" target="_blank">
                           <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
 
-                        <a
-                          href="#"
-                          target="_blank"
-                        >
+                        <a href="#" target="_blank">
                           <i className="fa fa-facebook" aria-hidden="true"></i>
                         </a>
 
